@@ -1,11 +1,25 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <script src="./script.js"></script>
+        <script src="./scripttwo.js" defer></script>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
         <title>Rock, Paper, Scissors</title>
     </head>
     <body>
-        
+        <div><h1>Welcome to Rock, Paper Scissors!</h1></div>
+        <div id="container">
+            <button class="playerButton"  id="rock"><img src="./images/rock.png"></button >
+            <button class="playerButton" id="paper"><img src="./images/paper.png" alt=""></button >
+            <button class="playerButton" id="scissors"><img src="./images/scissors.png" alt=""></button >
+        </div>
+        <div id="playerchoice">Player Choice: <div id="thechoice"></div></div>
+        <div id="computerchoice">Computer Choice: <div id="thepcchoice"></div></div>
+        <div id="scoreboard"><h2 id="h2">SCOREBOARD!</h2>
+        <div id="scores">
+            <div>Player: </div><div id="playerscore">0</div>
+            <div>Computer: </div><div id="pcscore">0</div>
+        </div>
+        </div>
     </body>
 </html>
